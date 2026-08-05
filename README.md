@@ -4,13 +4,6 @@
 
 Products that ship. Teams that deliver. I turn product ambition into measurable execution — strategy, delivery, growth — and I build the products I preach: small, focused tools, agentic-first, sovereign AI when it matters, boring tech, considered defaults. Specs before code, tests before release, privacy as a feature. 8+ years across fintech, energy and deep tech (PMP · PSPO · SAFe). No slideware. Results.
 
-## Currently shipping
-
-- **[leonelsandjong.com](https://leonelsandjong.com)** — Blog & portfolio: deep dives on product management, AI and tech leadership.
-- **[ProofClean QR](https://proofclean-qr.vercel.app)** — Automatic proof-of-visit for commercial cleaning companies. QR per site, checklist, server-timestamped photos, PDF report sent to the client.
-- **[AccèsClair](https://accesclair.vercel.app)** — Digital visitor log for condo boards & co-owners in Montréal. Replaces the paper logbook and group texts.
-- **[Zach Cleaning](https://zachcleaning.co.uk)** — Cleaning service bookings for the UK (Leicester).
-
 ## Open source
 
 - **[assurance-toto](https://github.com/leosand/assurance-toto)** — Digital twin of a French car insurance company run by autonomous AI agents — human control, cryptographic traceability, compliance-first.
@@ -18,7 +11,7 @@ Products that ship. Teams that deliver. I turn product ambition into measurable 
 - **[forex-api-project](https://github.com/leosand/forex-api-project)** — Real-time Forex & stock index tracking API.
 - **[tiktok-auto-content](https://github.com/leosand/tiktok-auto-content)** — TikTok video automation from text prompts: generation, scheduling & publishing pipeline.
 - **[Space Program](https://github.com/leosand/Space_program)** — Space launches comparison platform (React · TypeScript · Vite · TailwindCSS).
-- **[Piscine Belle Province](https://github.com/leosand/Piscine_belle_province)** — Swimming pool reservations & activities in Quebec (Next.js + Prisma).
+- **[Piscine Belle Province](https://github.com/leosand/Piscine_belle_province)** — Swimming pool services booking platform in Quebec (Next.js + Prisma).
 - **[IRCC_APP](https://github.com/leosand/IRCC_APP)** — Canada immigration platform prototype (Streamlit + scraping AI).
 - **[Leoblogger Crew](https://github.com/leosand/Crew_leoblogger)** — Multi-agent AI blog system (crewAI + DeepSeek).
 - **[MedicalWebsites](https://github.com/leosand/MedicalWebsites)** — Hospital website showcase built from the MEDDICAL Figma template.
