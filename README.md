@@ -1,8 +1,8 @@
 # Leonel Sandjong
 
-[**leonelsandjong.com**](https://leonelsandjong.com) — Digital Product Leader & Project Manager in Montréal, Canada.
+[**leonelsandjong.com**](https://leonelsandjong.com) — Digital Product Leader & Project Manager based in Canada.
 
-I build small, focused products — a lot of small things rather than one big thing. Local-first by default, sovereign AI when it matters, boring tech, considered defaults. Specs before code, tests before release, privacy as a feature.
+I build small, focused products — a lot of small things rather than one big thing. Agentic-first by default, sovereign AI when it matters, boring tech, considered defaults. Specs before code, tests before release, privacy as a feature.
 
 ## Currently shipping
 
