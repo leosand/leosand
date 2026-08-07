@@ -14,7 +14,6 @@ Products that ship. Teams that deliver. I turn product ambition into measurable 
 - **[Piscine Belle Province](https://github.com/leosand/Piscine_belle_province)** — Swimming pool services booking platform in Quebec (Next.js + Prisma).
 - **[IRCC_APP](https://github.com/leosand/IRCC_APP)** — Canada immigration platform prototype (Streamlit + scraping AI).
 - **[Leoblogger Crew](https://github.com/leosand/Crew_leoblogger)** — Multi-agent AI blog system (crewAI + DeepSeek).
-- **[MedicalWebsites](https://github.com/leosand/MedicalWebsites)** — Hospital website showcase built from the MEDDICAL Figma template.
 
 ## Stack
 
