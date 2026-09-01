@@ -14,8 +14,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=750&lines=Digital+Product+Leader+%26+Project+Manager;Agentic-first+products+%C2%B7+Sovereign+AI+%C2%B7+Boring+tech)](https://github.com/DenverCoder1/readme-typing-svg)
 
-![GitHub profile views of leosand](https://komarev.com/ghpvc/?username=leosand&color=0A66C2&style=flat-square&label=Profile+views)
-
 </div>
 
 ---
@@ -47,6 +45,7 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 | [**tiktok-auto-content**](https://github.com/leosand/tiktok-auto-content) | Plateforme d’automatisation de création et publication de vidéos TikTok à partir de prompts texte | Python · MIT |
 | [**assurance-toto**](https://github.com/leosand/assurance-toto) | A commercial-grade digital twin of a French car insurance company operated by a CEO assisted by a fleet of autonomous AI agents — with mandatory human control, full cryptographic traceability, and compliance-oriented by design. | TypeScript · Apache-2.0 |
 | [**Crew_leoblogger**](https://github.com/leosand/Crew_leoblogger) | CrewAI multi-agent crew that researches satellite constellations for LLM training and produces ready-to-publish Markdown blog articles, with DeepSeek API integration. | Python · MIT |
+| [**Space_program**](https://github.com/leosand/Space_program) | This program enables to visualize space launches and accurate data about space missions in recent years | HTML · MIT |
 | [**forex-api-project**](https://github.com/leosand/forex-api-project) | Projet de suivi des taux de change Forex et indices boursiers en temps réel | Python · MIT |
 <!-- public-projects:end -->
 
@@ -72,7 +71,6 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 
 <div align="center">
 
-![Public repositories](https://img.shields.io/github/repo-count/leosand?label=Public%20repos&style=for-the-badge&color=0A66C2)
 ![GitHub followers](https://img.shields.io/github/followers/leosand?label=Followers&style=for-the-badge&color=0A66C2)
 ![GitHub User's stars](https://img.shields.io/github/stars/leosand?affiliations=OWNER%2CCOLLABORATOR&label=Stars&style=for-the-badge&color=0A66C2)
 [![GitHub profile](https://img.shields.io/badge/Profile-leosand-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leosand)
