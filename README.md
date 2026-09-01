@@ -45,7 +45,6 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 | [**tiktok-auto-content**](https://github.com/leosand/tiktok-auto-content) | Plateforme d’automatisation de création et publication de vidéos TikTok à partir de prompts texte | Python · MIT |
 | [**assurance-toto**](https://github.com/leosand/assurance-toto) | A commercial-grade digital twin of a French car insurance company operated by a CEO assisted by a fleet of autonomous AI agents — with mandatory human control, full cryptographic traceability, and compliance-oriented by design. | TypeScript · Apache-2.0 |
 | [**Crew_leoblogger**](https://github.com/leosand/Crew_leoblogger) | CrewAI multi-agent crew that researches satellite constellations for LLM training and produces ready-to-publish Markdown blog articles, with DeepSeek API integration. | Python · MIT |
-| [**Space_program**](https://github.com/leosand/Space_program) | This program enables to visualize space launches and accurate data about space missions in recent years | HTML · MIT |
 | [**forex-api-project**](https://github.com/leosand/forex-api-project) | Projet de suivi des taux de change Forex et indices boursiers en temps réel | Python · MIT |
 <!-- public-projects:end -->
 
