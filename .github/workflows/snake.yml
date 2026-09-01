@@ -1,0 +1,36 @@
+# ═══════════════════════════════════════════════════════════════════
+# .github/workflows/snake.yml — leosand/leosand
+# Génè··re l'animation « snake » du graphe de contributions (Platane/snk)
+# et la publie sur la branche `output`. Le README la réé··fé··rence ensuite.
+# Fré··quence : quotidienne, 06 h 00 UTC + déé··clenchement manuel.
+# ═══════════════════════════════════════════════════════════════════
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+# Principe du moindre privilè··ge : seule l'é··criture de contenu est requise.
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVG (light + dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: leosand
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Publish to branch `output`
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
