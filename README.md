@@ -70,11 +70,13 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 
 ## 📊 GitHub stats
 
-<!-- Cards: anuraghazra/github-readme-stats + DenverCoder1/github-readme-streak-stats.
-     Note: public instances count only public activity (54 private repos excluded). -->
 <div align="center">
-  <img height="170" alt="Public GitHub stats of leosand" src="https://github-readme-stats.vercel.app/api?username=leosand&show_icons=true&theme=transparent&hide_border=true&locale=en" />
-  <img height="170" alt="Most used languages in leosand's public repos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leosand&layout=compact&theme=transparent&hide_border=true&locale=en" />
+
+![Public repositories](https://img.shields.io/github/repo-count/leosand?label=Public%20repos&style=for-the-badge&color=0A66C2)
+![GitHub followers](https://img.shields.io/github/followers/leosand?label=Followers&style=for-the-badge&color=0A66C2)
+![GitHub User's stars](https://img.shields.io/github/stars/leosand?affiliations=OWNER%2CCOLLABORATOR&label=Stars&style=for-the-badge&color=0A66C2)
+[![GitHub profile](https://img.shields.io/badge/Profile-leosand-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leosand)
+
 </div>
 <div align="center">
   <img alt="GitHub contribution streak of leosand" src="https://streak-stats.demolab.com?user=leosand&theme=transparent&hide_border=true&locale=en&date_format=j%20M%5B%20Y%5D" />
