@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-public-projects
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -26,8 +30,26 @@ jobs:
         with:
           node-version: 20
 
+      - name: Validate script syntax
+        run: node --check scripts/update-public-projects.mjs
+
+      - name: Validate README markers
+        run: |
+          set -euo pipefail
+          start_count=$(grep -c '<!-- public-projects:start -->' README.md || true)
+          end_count=$(grep -c '<!-- public-projects:end -->' README.md || true)
+          test "$start_count" -eq 1
+          test "$end_count" -eq 1
+
       - name: Generate project list
         run: node scripts/update-public-projects.mjs
+
+      - name: Verify README integrity
+        run: |
+          set -euo pipefail
+          for section in '# Léonel Sandjong' '## 👋 About me' '## 🚀 Public projects' '## 🧰 Stack' '## 📊 GitHub stats' '## 📬 Contact' 'github-contribution-grid-snake'; do
+            grep -qF -- "$section" README.md
+          done
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5

@@ -34,20 +34,21 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 
 ## 🚀 Public projects
 
-> Public repositories of the account [@leosand](https://github.com/leosand?tab=repositories) — 12 as of 2026-09-01.
+> Automatically synchronized daily from public GitHub repositories. Only active, non-fork public repositories are listed.
 
-| Category | Repository | Description |
+| Repository | Description | Stack / License |
 |---|---|---|
-| 🛰️ Applied AI | [**Riverside**](https://github.com/leosand/Riverside) | Automated riverbank monitoring: Sentinel-2 + AI (DSen2-CR, NDVI, vegetation predictive model), regulatory threshold alerts (CSR). 100% open source stack |
-| 🛰️ Applied AI | [**flng-operations-analytics**](https://github.com/leosand/flng-operations-analytics) | Optimal weather windows for LNG transfers on FLNG — Streamlit, real-time weather, AIS traffic, OCIMF safety scores |
-| 🛰️ Applied AI | [**Crew_leoblogger**](https://github.com/leosand/Crew_leoblogger) | CrewAI multi-agent team: satellite constellation research → ready-to-publish Markdown blog articles |
-| 🛰️ Applied AI | [**forex-api-project**](https://github.com/leosand/forex-api-project) | Real-time tracking of Forex exchange rates and stock indices |
-| 🧱 Products / SaaS | [**assurance-toto**](https://github.com/leosand/assurance-toto) | Digital twin of a car insurer operated by a CEO assisted by a fleet of autonomous AI agents — mandatory human control, cryptographic traceability |
-| 🧱 Products / SaaS | [**IRCC_APP**](https://github.com/leosand/IRCC_APP) | CanadaInfoHub — information platform for immigrants to Canada (Streamlit + Next.js variant), official sources processed by AI |
-| 🧱 Products / SaaS | [**Piscine_belle_province**](https://github.com/leosand/Piscine_belle_province) | Swimming pool maintenance service booking in Quebec — Next.js 14, TypeScript, Prisma, Tailwind, Docker |
-| 🧱 Products / SaaS | [**tiktok-auto-content**](https://github.com/leosand/tiktok-auto-content) | Automation of TikTok video creation and publication from text prompts |
-| 🌐 Web | [**Space_program**](https://github.com/leosand/Space_program) | Visualization of space launches and recent mission data |
-| 🗄️ Archives | [flng-operations-analytics-legacy](https://github.com/leosand/flng-operations-analytics-legacy) · [Crew_leoveggy](https://github.com/leosand/Crew_leoveggy) | Legacy versions and CrewAI experiments |
+<!-- public-projects:start -->
+| [**Space_program**](https://github.com/leosand/Space_program) | This program enables to visualize space launches and accurate data about space missions in recent years | HTML · MIT |
+| [**Riverside**](https://github.com/leosand/Riverside) | Riverside — MVP de surveillance automatisée des berges : imagerie satellite Sentinel-2 + IA (cloud removal DSen2-CR, NDVI, modèle prédictif végétation) + alertes seuils réglementaires CSR. Stack 100% open source. | Python · MIT |
+| [**leosand**](https://github.com/leosand/leosand) | My GitHub profile | JavaScript · No license declared |
+| [**flng-operations-analytics**](https://github.com/leosand/flng-operations-analytics) | Plateforme Python d'analyse des fenêtres météo optimales pour les opérations de transfert de GNL sur plateformes FLNG — dashboard Streamlit, données météo temps réel, trafic AIS et scores de sécurité OCIMF. | Python · MIT |
+| [**IRCC_APP**](https://github.com/leosand/IRCC_APP) | CanadaInfoHub — plateforme d'information pour immigrants au Canada (focus communauté afro-descendante) : app Streamlit (Python) + variante Next.js/Express (TypeScript), scraping des sources officielles et traitement par IA. | Python · MIT |
+| [**tiktok-auto-content**](https://github.com/leosand/tiktok-auto-content) | Plateforme d’automatisation de création et publication de vidéos TikTok à partir de prompts texte | Python · MIT |
+| [**assurance-toto**](https://github.com/leosand/assurance-toto) | A commercial-grade digital twin of a French car insurance company operated by a CEO assisted by a fleet of autonomous AI agents — with mandatory human control, full cryptographic traceability, and compliance-oriented by design. | TypeScript · Apache-2.0 |
+| [**Crew_leoblogger**](https://github.com/leosand/Crew_leoblogger) | CrewAI multi-agent crew that researches satellite constellations for LLM training and produces ready-to-publish Markdown blog articles, with DeepSeek API integration. | Python · MIT |
+| [**forex-api-project**](https://github.com/leosand/forex-api-project) | Projet de suivi des taux de change Forex et indices boursiers en temps réel | Python · MIT |
+<!-- public-projects:end -->
 
 ---
 
