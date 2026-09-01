@@ -26,7 +26,7 @@
 
 ## 👋 About me
 
-**Digital Product Leader & Project Manager based in Canada** — Industry X consultant, INSEAD '19, with 17+ cross-industry projects delivered. I design and ship **small, focused products with an agentic-first approach**: local-first architectures, sovereign AI (self-hosted LLMs, data stays on the machine) and deliberately *boring*, proven technology.
+I design and ship **small, focused products with an agentic-first approach**: local-first architectures, sovereign AI (self-hosted LLMs, data stays on the machine) and deliberately *boring*, proven technology.
 
 ### What I build
 
@@ -83,17 +83,16 @@
   <img alt="GitHub contribution streak of leosand" src="https://streak-stats.demolab.com?user=leosand&theme=transparent&hide_border=true&locale=en&date_format=j%20M%5B%20Y%5D" />
 </div>
 
-<!-- ═══ OPTIONAL: snake animation of contribution graph ═══
-     Prerequisite: add .github/workflows/snake.yml file (provided),
-     run the action once, then uncomment the block below.
-
+<!-- ═══ SNAKE ANIMATION — contribution graph ═══
+     The workflow .github/workflows/snake.yml runs daily at 06:00 UTC.
+     After the first successful run, the output branch contains the SVG files. -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leosand/leosand/output/github-contribution-grid-snake-dark.svg" />
     <img alt="Snake animation of leosand's contribution graph" src="https://raw.githubusercontent.com/leosand/leosand/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
-     ═══════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ---
 
