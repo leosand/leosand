@@ -39,9 +39,9 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 | Repository | Description | Stack / License |
 |---|---|---|
 <!-- public-projects:start -->
+| [**leosand**](https://github.com/leosand/leosand) | My GitHub profile | JavaScript · No license declared |
 | [**Space_program**](https://github.com/leosand/Space_program) | This program enables to visualize space launches and accurate data about space missions in recent years | HTML · MIT |
 | [**Riverside**](https://github.com/leosand/Riverside) | Riverside — MVP de surveillance automatisée des berges : imagerie satellite Sentinel-2 + IA (cloud removal DSen2-CR, NDVI, modèle prédictif végétation) + alertes seuils réglementaires CSR. Stack 100% open source. | Python · MIT |
-| [**leosand**](https://github.com/leosand/leosand) | My GitHub profile | JavaScript · No license declared |
 | [**flng-operations-analytics**](https://github.com/leosand/flng-operations-analytics) | Plateforme Python d'analyse des fenêtres météo optimales pour les opérations de transfert de GNL sur plateformes FLNG — dashboard Streamlit, données météo temps réel, trafic AIS et scores de sécurité OCIMF. | Python · MIT |
 | [**IRCC_APP**](https://github.com/leosand/IRCC_APP) | CanadaInfoHub — plateforme d'information pour immigrants au Canada (focus communauté afro-descendante) : app Streamlit (Python) + variante Next.js/Express (TypeScript), scraping des sources officielles et traitement par IA. | Python · MIT |
 | [**tiktok-auto-content**](https://github.com/leosand/tiktok-auto-content) | Plateforme d’automatisation de création et publication de vidéos TikTok à partir de prompts texte | Python · MIT |
