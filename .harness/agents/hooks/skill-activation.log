@@ -1,0 +1,9 @@
+2026-09-02T07:40:45Z | VERSION_TRACKER | DEMARRAGE - project=E:\Mes apps\leosand - bump=MINOR - description=release v0.1.0
+2026-09-02T07:40:45Z | VERSION_TRACKER | ETAPE 1/5: backup
+2026-09-02T07:40:46Z | BACKUP | .harness/backups/full/full-v0.1.0-20260902T034045-0400.tar.gz
+2026-09-02T07:40:46Z | VERSION_TRACKER | Backup FULL declenche (MINOR)
+2026-09-02T07:40:46Z | VERSION_TRACKER | ETAPE 2/5: verification Git
+2026-09-02T07:40:46Z | VERSION_TRACKER | Git detecte
+2026-09-02T07:40:46Z | VERSION_TRACKER | ETAPE 3/5: scan de secrets
+2026-09-02T07:40:46Z | VERSION_TRACKER | Aucun scanner de secrets disponible
+2026-09-02T07:40:46Z | VERSION_TRACKER | ETAPE 4/5: commit Git
