@@ -26,7 +26,7 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 
 - **Agentic products** — multi-agent systems with human-in-the-loop control and full traceability
 - **Applied AI** — satellite imagery, RAG pipelines, local LLM orchestration (Ollama, CrewAI)
-- **Micro-SaaS** — focused B2B tools for Quebec and francophone markets, zero-waste infrastructure
+- **Micro-SaaS** — focused B2B tools for North America and francophone markets, zero-waste infrastructure
 
 ---
 
