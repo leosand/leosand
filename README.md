@@ -14,6 +14,8 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=750&lines=Digital+Product+Leader+%26+Project+Manager;Agentic-first+products+%C2%B7+Sovereign+AI+%C2%B7+Boring+tech)](https://github.com/DenverCoder1/readme-typing-svg)
 
+![GitHub profile views of leosand](https://komarev.com/ghpvc/?username=leosand&color=0A66C2&style=flat-square&label=Profile+views)
+
 </div>
 
 ---
@@ -26,7 +28,7 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 
 - **Agentic products** — multi-agent systems with human-in-the-loop control and full traceability
 - **Applied AI** — satellite imagery, RAG pipelines, local LLM orchestration (Ollama, CrewAI)
-- **Micro-SaaS** — focused B2B tools for North America and francophone markets, zero-waste infrastructure
+- **Micro-SaaS** — focused B2B tools for Quebec and francophone markets, zero-waste infrastructure
 
 ---
 
