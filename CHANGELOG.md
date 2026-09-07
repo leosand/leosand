@@ -1,8 +1,6 @@
 # Changelog
 
-## [Unreleased]
-
-- fix(profile): remove private projects from public page (public repos only)
+## [v0.1.0] - 2026-09-02
 - feat(profile): list only public repos (10) + live products
 - chore(profile): restore full README (revert renderer test)
 - test: minimal README to isolate profile renderer failure
