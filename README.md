@@ -39,8 +39,8 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 | Repository | Description | Stack / License |
 |---|---|---|
 <!-- public-projects:start -->
-| [**Space_program**](https://github.com/leosand/Space_program) | This program enables to visualize space launches and accurate data about space missions in recent years | HTML · MIT |
 | [**leosand**](https://github.com/leosand/leosand) | My GitHub profile | JavaScript · No license declared |
+| [**Space_program**](https://github.com/leosand/Space_program) | This program enables to visualize space launches and accurate data about space missions in recent years | HTML · MIT |
 | [**assurance-toto**](https://github.com/leosand/assurance-toto) | A commercial-grade digital twin of a French car insurance company operated by a CEO assisted by a fleet of autonomous AI agents — with mandatory human control, full cryptographic traceability, and compliance-oriented by design. | TypeScript · Apache-2.0 |
 | [**Riverside**](https://github.com/leosand/Riverside) | Riverside — MVP de surveillance automatisée des berges : imagerie satellite Sentinel-2 + IA (cloud removal DSen2-CR, NDVI, modèle prédictif végétation) + alertes seuils réglementaires CSR. Stack 100% open source. | Python · MIT |
 | [**flng-operations-analytics**](https://github.com/leosand/flng-operations-analytics) | Plateforme Python d'analyse des fenêtres météo optimales pour les opérations de transfert de GNL sur plateformes FLNG — dashboard Streamlit, données météo temps réel, trafic AIS et scores de sécurité OCIMF. | Python · MIT |
