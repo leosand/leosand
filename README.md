@@ -39,6 +39,7 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 | Repository | Description | Stack / License |
 |---|---|---|
 <!-- public-projects:start -->
+| [**DroneCAD**](https://github.com/leosand/DroneCAD) | Humanoid agentic prototyping stack - Blender + FreeCAD + ROS 2 Jazzy + Gazebo Harmonic + MCP, local model gpt-oss:20b (Windows/WSL2/Docker). | Python · No license declared |
 | [**leosand**](https://github.com/leosand/leosand) | My GitHub profile | JavaScript · No license declared |
 | [**Space_program**](https://github.com/leosand/Space_program) | This program enables to visualize space launches and accurate data about space missions in recent years | HTML · MIT |
 | [**CamGeo**](https://github.com/leosand/CamGeo) | Open, AI-ready geospatial datasets and land use / land cover maps for Cameroon. Code: Apache-2.0. Data: CC-BY-4.0. | JavaScript · Apache-2.0 |
