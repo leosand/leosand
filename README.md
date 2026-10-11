@@ -12,9 +12,9 @@
 
 # Léonel Sandjong
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=750&lines=Digital+Product+Leader+%26+Project+Manager;Agentic-first+products+%C2%B7+Sovereign+AI+%C2%B7+Boring+tech)](https://github.com/DenverCoder1/readme-typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=750&lines=Agentic-first+products+%C2%B7+Sovereign+AI+%C2%B7+Boring+tech)](https://github.com/DenverCoder1/readme-typing-svg)
 
-![GitHub profile views of leosand](https://komarev.com/ghpvc/?username=leosand&color=0A66C2&style=flat-square&label=Profile+views)
+![GitHub profile views of leosand](https://gitviews.com/user/leosand.svg)
 
 </div>
 
@@ -113,7 +113,7 @@ I design and ship **small, focused products with an agentic-first approach**: lo
          (bio still says "Local-first, sovereign AI, boring tech")
      [ ] Verify third-party services still respond:
          readme-typing-svg.demolab.com · streak-stats.demolab.com
-         github-readme-stats.vercel.app · komarev.com · shields.io
+         github-readme-stats.vercel.app · gitviews.com · shields.io
      [ ] Revalidate alt texts (accessibility, screen readers)
      [ ] Proofread
 
