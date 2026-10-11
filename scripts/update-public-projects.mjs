@@ -5,6 +5,11 @@
  *
  * Runs daily via .github/workflows/update-public-projects.yml (03:17 UTC).
  * Node.js 20 native APIs only — no npm dependencies.
+ *
+ * NOTE: the generated block is the COMPLETE table (header + separator + rows).
+ * An HTML comment placed between a table's separator row and its data rows
+ * breaks GFM table rendering, so the markers must sit OUTSIDE the table,
+ * separated from it by blank lines.
  */
 
 import fs from 'node:fs/promises';
@@ -14,6 +19,7 @@ const startMarker = '<!-- public-projects:start -->';
 const endMarker = '<!-- public-projects:end -->';
 const readmePath = 'README.md';
 const userAgent = `${owner}-profile-project-sync`;
+const tableHeader = '| Repository | Description | Stack / License |\n|---|---|---|';
 
 /** Fetch every repository page of the account (sort=updated, desc). */
 async function fetchAllRepositories() {
@@ -41,6 +47,9 @@ function normalizeCell(value) {
   return String(value ?? '')
     .replace(/\r\n/g, ' ')
     .replace(/[\r\n]/g, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
     .replace(/\|/g, '\\|')
     .trim();
 }
@@ -63,7 +72,7 @@ function licenseLabel(repository) {
   return spdx && spdx !== 'NOASSERTION' ? spdx : 'No license declared';
 }
 
-/** Render the Markdown rows between the marker pair. */
+/** Render the Markdown data rows. */
 function renderRows(repositories) {
   if (repositories.length === 0) {
     return '| _No eligible public repositories found._ | — | — |';
@@ -78,6 +87,11 @@ function renderRows(repositories) {
       return `| [**${name}**](${url}) | ${description} | ${stack} |`;
     })
     .join('\n');
+}
+
+/** Render the complete table (header + separator + rows). */
+function renderTable(repositories) {
+  return `${tableHeader}\n${renderRows(repositories)}`;
 }
 
 async function main() {
@@ -108,17 +122,18 @@ async function main() {
       return timeB - timeA;
     });
 
-  const rows = renderRows(repositories);
+  const table = renderTable(repositories);
+  const newBlock = `\n\n${table}\n\n`;
   const currentBlock = readme.slice(start + startMarker.length, end);
 
-  if (currentBlock === `\n${rows}\n`) {
+  if (currentBlock === newBlock) {
     console.log(
       `Public projects table is already current (${repositories.length} eligible repositories). No write performed.`,
     );
     return;
   }
 
-  const updatedReadme = `${readme.slice(0, start + startMarker.length)}\n${rows}\n${readme.slice(end)}`;
+  const updatedReadme = `${readme.slice(0, start + startMarker.length)}${newBlock}${readme.slice(end)}`;
   await fs.writeFile(readmePath, updatedReadme, 'utf8');
   console.log(
     `Updated public projects table with ${repositories.length} eligible repositories (sorted by pushed_at, descending).`,
