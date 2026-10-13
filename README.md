@@ -40,6 +40,7 @@ I design and ship **small, focused products with an agentic-first approach**: lo
 
 | Repository | Description | Stack / License |
 |---|---|---|
+| [**open-housat**](https://github.com/leosand/open-housat) | Open Housat project | HTML · No license declared |
 | [**leosand**](https://github.com/leosand/leosand) | My GitHub profile | JavaScript · No license declared |
 | [**CamGeo**](https://github.com/leosand/CamGeo) | Open, AI-ready geospatial datasets and land use / land cover maps for Cameroon. Code: Apache-2.0. Data: CC-BY-4.0. | JavaScript · Apache-2.0 |
 | [**DroneCAD**](https://github.com/leosand/DroneCAD) | Humanoid agentic prototyping stack - Blender + FreeCAD + ROS 2 Jazzy + Gazebo Harmonic + MCP, local model gpt-oss:20b (Windows/WSL2/Docker). | Python · No license declared |
